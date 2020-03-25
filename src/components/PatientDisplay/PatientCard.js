@@ -14,6 +14,7 @@ class PatientCard extends React.Component {
     super(props);
     this.state = {
       value: null,
+      modalLarge: false
     };
     this.toggleModalLarge = this.toggleModalLarge.bind(this);
   }
@@ -64,9 +65,9 @@ class PatientCard extends React.Component {
               className="close"
               data-dismiss="modal"
               aria-hidden="true"
-              onClick={this.toggleModalLong}
+              onClick={this.toggleModalLarge}
             >
-              <i className="tim-icons icon-simple-remove success" />
+              <i className="tim-icons icon-simple-remove" />
             </button>
           </div>
           <code style={codeStyle}>{JSON.stringify(patient.raw)}</code>
