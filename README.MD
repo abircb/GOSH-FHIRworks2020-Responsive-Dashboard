@@ -16,40 +16,31 @@ Read more about FHIR [here](https://wiki.hl7.org/FHIR)
  
 ---
 
-For my solution, I chose a combination of a couple of themes provided to us: __2. Graphing data from FHIR records__ 
-and __6. Responsive design app form pulling data from a series of FHIR records e.g. retrieving and flattening the data, from a front-end design perspective.__
+For my solution, I chose a combination of two themes - __2. Graphing data from FHIR records__ 
+and __6. Responsive design app form pulling data from a series of FHIR records e.g. retrieving and flattening the data, from a front-end design perspective__ - from the large range of themes provided to us.
 
 ## Overview
 
 ![Product GIF](./github-assets/demo.gif)
 
-The application, built using [React.js](https://github.com/facebook/react) and a range of "made-for-React" libraries
-like [reactstrap](https://reactstrap.github.io/) and [react-charjs-2](https://jerairrest.github.io/react-chartjs-2/), is lightweight, 
-responsive, and SPA-based. 
+This application - built using [React.js](https://github.com/facebook/react), [react-router](https://reacttraining.com/react-router/), [reactstrap](https://reactstrap.github.io/), and [react-chartjs-2](https://jerairrest.github.io/react-chartjs-2/) - visualises synthetically generated FHIR data from the [GOSH Drive Azure API](https://github.com/goshdrive/FHIRworks_2020) and creates a seamless analytical experience.
 
-It comes with a seamless front-end for viewing the patient data, easy-to-use search options, and dynamic charts giving
-statistical insight about the patient group.
+#### View __(with built-in Raw FHIR Data Viewer) __
 
-### View (with built-in Raw FHIR Data Viewer) 
+Patient data can be effortlessly viewed in a responsive table format with aesthetically pleasing cards containing important information (like name, age, contact details, etc.) about a patient, and a built-in ``Raw FHIR Data Viewer`` for more detailed analysis.
 
-The patient list along with patient data can be seamlessly viewed in a responsive table format with easy-to-see cards containing 
-common/important information (like Name, Age, Contact details, etc.) and a built-in Raw FHIR Data Viewer for a more detailed 
-viewing experience.
+#### Search 
 
-### Search 
+A simple, yet effective search option that can be used to filter out patients by any attribute - be it name, age, gender, etc.
 
-A simple, yet effective search option that can be used to filter out data by any attribute - be it name, age, gender, etc.
-
-### Visualise
+#### Visualise
 
 The application uses [react-chartjs-2](https://github.com/jerairrest/react-chartjs-2) to generate dynamic visualisations of the patient 
-data; providing statistical insight into the patients' age, gender, and city of origin. 
+data; providing statistical insight about the patient group's age, gender, and city of origin. 
 
-### Experience responsive data analysis
+#### Experience responsive data analysis
 
-The web app is fully responsive - from the patient data viewing experience to the data visualisation - down to the very smallest detail; accomplished through [react-bootstrap's](https://react-bootstrap.github.io/) responsive components. This will make the process to migrating the application to a React Native application much easier, which can be targetted to native smartphones and tablets.
-
----
+The web app is fully responsive - from the data viewing experience to the data visualisation - down to the very smallest detail; accomplished through [react-bootstrap's](https://react-bootstrap.github.io/) responsive components. This will also make the process to migrating the application to a React Native application much easier, which can be targetted to native smartphones and tablets.
 
 ## Available scripts
 
