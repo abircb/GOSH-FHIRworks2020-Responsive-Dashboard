@@ -25,7 +25,7 @@ and __6. Responsive design app form pulling data from a series of FHIR records e
 
 This application - built using [React.js](https://github.com/facebook/react), [react-router](https://reacttraining.com/react-router/), [reactstrap](https://reactstrap.github.io/), and [react-chartjs-2](https://jerairrest.github.io/react-chartjs-2/) - visualises synthetically generated FHIR data from the [GOSH Drive Azure API](https://github.com/goshdrive/FHIRworks_2020) and creates a seamless analytical experience.
 
-#### View __(with built-in Raw FHIR Data Viewer) __
+#### View (with built-in Raw FHIR Data Viewer)
 
 Patient data can be effortlessly viewed in a responsive table format with aesthetically pleasing cards containing important information (like name, age, contact details, etc.) about a patient, and a built-in ``Raw FHIR Data Viewer`` for more detailed analysis.
 
